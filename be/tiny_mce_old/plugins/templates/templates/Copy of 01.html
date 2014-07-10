@@ -1,0 +1,23 @@
+<root>
+<main a="1">
+	<table label='Table' cellpadding='cellpadding' cellspacing='cellspacing' width='width' class='class'>
+		<tr label='Rows' rowsrepeat='Rows count' erclass='Even Row Class' orclass='Odd Row Class'>
+			<td label='Columns' cols='cols'/>
+		</tr>
+	</table>
+</main>
+<table>
+<repeat count='rowsrepeat'>
+	<tr class='orclass'>
+		<repeat count='cols'>
+			<td>1td</td>
+		</repeat>
+	</tr>
+	<tr class='erclass'>
+		<repeat count='cols'>
+			<td>2td</td>
+		</repeat>
+	</tr>
+</repeat>
+</table>
+</root>

@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Flash</title>
+	<script type="text/javascript" src="../../tiny_mce_popup.js"></script>
+	<script type="text/javascript" src="js/flash.js"></script>
+	<base target="_self" />
+</head>
+<body style="display: none">
+	<div align="left">
+		<div class="title">Flash:<br /><br /></div>
+		<table border="0" cellspacing="0" cellpadding="4">
+		<tr>
+			<td>URL:</td>
+			<td><input type="text" name="url" id="url" size="50" /></td>
+		</tr>
+		<tr>
+			<td>Width:</td>
+			<td><input type="text" name="width" id="width" size="3" /></td>
+		</tr>
+		<tr>
+			<td>Height:</td>
+			<td><input type="text" name="height" id="height" size="3" /></td>
+		</tr>
+		<tr>
+			<td>Version:</td>
+			<td><input type="text" name="version" id="version" size="3" /></td>
+		</tr>
+		<tr>
+			<td>Wmode:</td>
+			<td><select name="wmode" id="wmode">
+			<option></option>
+			<option value="transparent">transparent</option>
+			</select>
+			</td>
+		</tr>
+		<tr>
+			<td>scriptAccess:</td>
+			<td><select name="scriptAccess" id="scriptAccess">
+			<option></option>
+			<option value="always">always</option>
+			</select>
+			</td>
+		</tr>
+		
+		<tr>
+			<td>Container ID:</td>
+			<td><input type="text" name="container_id" id="container_id" /></td>
+		</tr>
+		
+		<tr>
+		<td colspan="2"><hr />Variables</td>
+		</tr>
+		<tr>
+		<td><b>Key</b></td>
+		<td><b>Value</b></td>
+		</tr>
+		
+		<tr>
+			<td><input type="text" name="key1" id="key1" /></td>
+			<td><input type="text" name="value1" id="value1" /></td>
+		</tr>
+		<tr>
+			<td><input type="text" name="key2" id="key2" /></td>
+			<td><input type="text" name="value2" id="value2" /></td>
+		</tr>
+		<tr>
+			<td><input type="text" name="key3" id="key3" /></td>
+			<td><input type="text" name="value3" id="value3" /></td>
+		</tr>
+		<tr>
+			<td><input type="text" name="key4" id="key4" /></td>
+			<td><input type="text" name="value4" id="value4" /></td>
+		</tr>
+		<tr>
+		<td colspan="2">
+			<input type="button" onclick="FlashDialog.insert()" value="Insert" />
+		</td>
+		</tr>
+		</table>
+		
+	</div>
+</body>
+</html>

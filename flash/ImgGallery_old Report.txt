@@ -1,0 +1,29 @@
+ImgGallery_old.swf Movie Report
+--------------------------------
+
+Frame #    Frame Bytes    Total Bytes    Scene
+-------    -----------    -----------    ----------------
+      1          34014          34014    Scene 1 (AS 2.0 Classes Export Frame)
+
+Scene                        Shape Bytes    Text Bytes    ActionScript Bytes
+-------------------------    -----------    ----------    ------------------
+Scene 1                                0             0                   263
+
+Symbol                       Shape Bytes    Text Bytes    ActionScript Bytes
+-------------------------    -----------    ----------    ------------------
+Preloader1                             0             0                    55
+container                             17             0                    16
+bgr                                    0             0                     0
+
+ActionScript Bytes    Location
+------------------    --------
+                55    Preloader1:Layer 1:1
+                62    
+               263    Scene 1:Layer 1:1
+                61    
+                16    container:Layer 1:1
+             32179    ActionScript 2.0 Classes
+
+
+
+
